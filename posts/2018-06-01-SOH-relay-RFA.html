@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164375668-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-164375668-1');
+</script>
+<!-- End Google Analytics -->
+
+    
+
+    
+
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    <title>SOH relay RFA | Cahcn的自留地 | 广播收听、资讯，以及其它感兴趣的东西</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="">
+    <meta name="description" content="RFA普通话节目也通过SOH在台湾的频率向中国大陆地区发射，2018年5月起部分转播频率有所调整。 2018年6月1日16:00，通过深圳SDR接收机收听，收到以下频率：9320、9730、10960、12910、14430、14900、15340、16300、17440kHz 其中，9320、16300、17440kHz同时发射RFA&#x2F;SOH两个信号。 6月15日9:45收听，14430kHz也">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SOH relay RFA">
+<meta property="og:url" content="https://cahcn.github.io/indigo/posts/2018-06-01-SOH-relay-RFA.html">
+<meta property="og:site_name" content="Cahcn的自留地">
+<meta property="og:description" content="RFA普通话节目也通过SOH在台湾的频率向中国大陆地区发射，2018年5月起部分转播频率有所调整。 2018年6月1日16:00，通过深圳SDR接收机收听，收到以下频率：9320、9730、10960、12910、14430、14900、15340、16300、17440kHz 其中，9320、16300、17440kHz同时发射RFA&#x2F;SOH两个信号。 6月15日9:45收听，14430kHz也">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2018-06-01T08:53:23.000Z">
+<meta property="article:modified_time" content="2018-08-01T08:09:35.417Z">
+<meta property="article:author" content="Cahcn">
+<meta name="twitter:card" content="summary">
+    
+        <link rel="alternate" type="application/atom+xml" title="Cahcn的自留地" href="/indigo/atom.xml">
+    
+    <link rel="shortcut icon" href="https://tva1.sinaimg.cn/crop.0.0.180.180.180/7ae04befjw8f1wtigkgdaj2050050dg4.jpg">
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
+    <script>window.lazyScripts=[]</script>
+
+    <!-- custom head -->
+    
+
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu" class="hide" >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(/indigo/img/brand.jpg)">
+      <div class="brand">
+        <a href="/indigo/" class="avatar waves-effect waves-circle waves-light">
+          <img src="https://tva1.sinaimg.cn/crop.0.0.180.180.180/7ae04befjw8f1wtigkgdaj2050050dg4.jpg">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">Cahcn</h5>
+          <a href="mailto:gsradio081206@163.com" title="gsradio081206@163.com" class="mail">gsradio081206@163.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/indigo/"  >
+                <i class="icon icon-lg icon-home"></i>
+                主页
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/indigo/archives"  >
+                <i class="icon icon-lg icon-archives"></i>
+                归档
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/indigo/categories"  >
+                <i class="icon icon-lg icon-th-list"></i>
+                分类
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="https://weibo.com/gsr081206" target="_blank" >
+                <i class="icon icon-lg icon-weibo"></i>
+                微博
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="https://www.youtube.com/channel/UChbez29sD2PaaQJ55rs5pBw" target="_blank" >
+                <i class="icon icon-lg icon-youtube"></i>
+                YouTube
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="http://blog.sina.com.cn/gsr081206" target="_blank" >
+                <i class="icon icon-lg icon-link"></i>
+                鉴河之声
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="https://bcler.gitee.io" target="_blank" >
+                <i class="icon icon-lg icon-star"></i>
+                测试站点
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/indigo/drm"  >
+                <i class="icon icon-lg icon-headphones"></i>
+                CNR DRM
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">SOH relay RFA</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="输入感兴趣的关键字">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">SOH relay RFA</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2018-06-01T08:53:23.000Z" itemprop="datePublished" class="page-time">
+  2018-06-01
+</time>
+
+
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/indigo/categories/radio/">radio</a></li></ul>
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+
+<article id="post-2018-06-01-SOH-relay-RFA"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">SOH relay RFA</h1>
+        <div class="post-meta">
+            <time class="post-time" title="2018-06-01 16:53:23" datetime="2018-06-01T08:53:23.000Z"  itemprop="datePublished">2018-06-01</time>
+
+            
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/indigo/categories/radio/">radio</a></li></ul>
+
+
+
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
+</span>
+
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <p>RFA普通话节目也通过SOH在台湾的频率向中国大陆地区发射，2018年5月起部分转播频率有所调整。</p>
+<p>2018年6月1日16:00，通过深圳SDR接收机收听，收到以下频率：<br>9320、9730、10960、12910、14430、14900、15340、16300、17440kHz</p>
+<p>其中，9320、16300、17440kHz同时发射RFA/SOH两个信号。</p>
+<p>6月15日9:45收听，14430kHz也同时发射RFA/SOH两个信号。<br>8月1日16:00收听，12910、13640kHz也同时发射RFA/SOH两个信号。</p>
+
+        </div>
+
+        <blockquote class="post-copyright">
+    
+    <div class="content">
+        
+<span class="post-time">
+    最后更新时间：<time datetime="2018-08-01T08:09:35.417Z" itemprop="dateUpdated">2018-08-01 16:09:35</time>
+</span><br>
+
+
+        
+    </div>
+    
+    <footer>
+        <a href="https://cahcn.github.io/indigo">
+            <img src="https://tva1.sinaimg.cn/crop.0.0.180.180.180/7ae04befjw8f1wtigkgdaj2050050dg4.jpg" alt="Cahcn">
+            Cahcn
+        </a>
+    </footer>
+</blockquote>
+
+        
+
+
+        <div class="post-footer">
+            
+
+            
+<div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="https://service.weibo.com/share/share.php?url=https://cahcn.github.io/indigo/posts/2018-06-01-SOH-relay-RFA.html&title=《SOH relay RFA》 — Cahcn的自留地&pic=https://tva1.sinaimg.cn/crop.0.0.180.180.180/7ae04befjw8f1wtigkgdaj2050050dg4.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="https://connect.qq.com/widget/shareqq/index.html?url=https://cahcn.github.io/indigo/posts/2018-06-01-SOH-relay-RFA.html&title=《SOH relay RFA》 — Cahcn的自留地&source=Cahcn的自留地" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://cahcn.github.io/indigo/posts/2018-06-01-SOH-relay-RFA.html" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《SOH relay RFA》 — Cahcn的自留地&url=https://cahcn.github.io/indigo/posts/2018-06-01-SOH-relay-RFA.html&via=https://cahcn.github.io/indigo" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://cahcn.github.io/indigo/posts/2018-06-01-SOH-relay-RFA.html" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between">
+  
+    <div class="waves-block waves-effect prev">
+      <a href="/indigo/posts/2018-07-04-Guangdong-4K-Channel.html" id="post-prev" class="post-nav-link">
+        <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> Prev</div>
+        <h4 class="title">广东影视频道4K超高清信号将暂停播出</h4>
+      </a>
+    </div>
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/indigo/posts/2018-04-17-CNR12.html" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">CNR 12启用临时频率1557/6030kHz</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Valine Comments -->
+    <div class="comments vcomment" id="comments"></div>
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+    <!-- Valine Comments script -->
+    <script>
+        var GUEST_INFO = ['nick','mail','link'];
+        var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+          return GUEST_INFO.indexOf(item) > -1
+        });
+        new Valine({
+            el: '#comments',
+            notify: 'true' == 'true',
+            verify: 'true' == 'true',
+            appId: "uQy2aCtYHAKemynwgm1Gq1E7-MdYXbMMI",
+            appKey: "cqAxW0OGoqEIrYAAwEYfIooM",
+            avatar: "mm",
+            placeholder: "Valine Comment",
+            guest_info: guest_info.length == 0 ? GUEST_INFO : guest_info,
+            pageSize: "10"
+        })
+    </script>
+    <!-- Valine Comments end -->
+
+
+
+
+</article>
+
+
+
+</div>
+
+        <footer class="footer">
+    <div class="top">
+        
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        站点总访客数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        站点总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+        <p>
+            
+                <span><a href="/indigo/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span>
+            
+            <span>尊重著作权，转载请标明出处。</span>
+        </p>
+    </div>
+    <div class="bottom">
+        <p><span>Cahcn &copy; 2017 - 2021</span>
+            <span>
+                
+                Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a>
+            </span>
+        </p>
+    </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="https://service.weibo.com/share/share.php?url=https://cahcn.github.io/indigo/posts/2018-06-01-SOH-relay-RFA.html&title=《SOH relay RFA》 — Cahcn的自留地&pic=https://tva1.sinaimg.cn/crop.0.0.180.180.180/7ae04befjw8f1wtigkgdaj2050050dg4.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="https://connect.qq.com/widget/shareqq/index.html?url=https://cahcn.github.io/indigo/posts/2018-06-01-SOH-relay-RFA.html&title=《SOH relay RFA》 — Cahcn的自留地&source=Cahcn的自留地" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://cahcn.github.io/indigo/posts/2018-06-01-SOH-relay-RFA.html" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《SOH relay RFA》 — Cahcn的自留地&url=https://cahcn.github.io/indigo/posts/2018-06-01-SOH-relay-RFA.html&via=https://cahcn.github.io/indigo" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://cahcn.github.io/indigo/posts/2018-06-01-SOH-relay-RFA.html" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACuElEQVR42u3awW6DQAwE0Pz/T7fX9lAyY7MRlR6nqAqwj0qsM/brFR9fP46ff/nrO5vjeg2vEwceHh7eYul/3Wx2+81frr9ZPCA8PDy8Y7zr5ebU60fTnpus540FDw8P7zG8vLDOi/KkHsbDw8P7j7ykHM+jhPwR4OHh4T2Nl4QRebDbRgz5HQ9mLXh4eHiTHtMriWif8PlIfw8PDw9v3VW/fuHmr/79eoarxcPDwzvA28Sps/I3L75nDw4PDw/vCbx8k9gEFpsN4M0DwsPDwzvAa1tZbTTQjhG0rbJo28DDw8O7iTcbDsjL3PY7SclebE54eHh4x3j5yXn0kBfNdbiQN8bw8PDwjvHaOOB6w7g3wkgK8Tf9PTw8PLxbefsiuN0AZgV6W/rX+wweHh5ezMvb9ptiN29f1dnz9Vl4eHh4x3htodwOWkXBwU19qyJrwcPDwxvxki2hjQzaoYRZoyv/jIeHh3eCl5fR7SYxK9Dbc4s2GB4eHt6aN2PMXtltADErxN9sCXh4eHhrXtLQym+QbwDtNWePEg8PD+80r67E93MKo1GDNtTAw8PDu5eXL70NattRg7zsvu0XAx4eHt6I1w4EJCX4vmietcTw8PDwPsPbjIq2S28fwWxwAQ8PD+80Lz+hHQJo49e2VdY25/Dw8PDu5eWv6bYInrWsNoOzw0wFDw8Pb8TLQ4c8YG0L9ORqeasMDw8P7zO8/HXfjmHl8cTmLvVvBTw8PLyS91Ues7Pyl/i+sP71GQ8PD+8Ab/Yqz1tl+yGD9tzhdoWHh4dXXid/lc8C2VnYMbta/Z/Bw8PDW/D2QwB1a2odPURBCR4eHt4DeG2F3m45s2bYm5IaDw8P72G8fKRg1mBrY2I8PDy8z/A2LavZq78t0HM8Hh4e3mle+4O/XW7e/t8MCgxheHh4eB3vGyx9DQGhoH4pAAAAAElFTkSuQmCC" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/indigo/', SHARE: true, REWARD: false };
+
+
+</script>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/main.min.js"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/search.min.js" async></script>
+
+
+
+
+
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+</body>
+</html>
